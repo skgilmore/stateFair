@@ -64,6 +64,8 @@ eventHub.addEventListener("click", clickEvent => {
     }
  })
 
+ let ticketCounter = 1
+ 
 
         export const TicketBooth = () => {
             contentTarget.innerHTML += `
